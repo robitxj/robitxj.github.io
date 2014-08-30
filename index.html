@@ -1,113 +1,11 @@
-<!DOCTYPE HTML>
-<!--<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">-->
+﻿<html>
+
 <head>
-	<title>宝贝儿，生日快乐</title>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<style type="text/css">
-		@font-face {
-			font-family: digit;
-			src: url('digital-7_mono.ttf') format("truetype");
-		}
-	</style>
-	<link href="css/default.css" type="text/css" rel="stylesheet">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/garden.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
+<title>徐杰的博客</title>
 </head>
 
-<body bgcolor = #FAF0E6>
-	<audio src="bgm/bgm.mp3" loop="true" autoplay></audio>
-	<div id="mainDiv">
-		<div id="content">
-			<div id="code">
-				<span >宝贝儿，生日快乐~</span><br />
-				<span />请让我再这么叫你一次。<span  ></span><br />
-				<span />宝贝儿，我爱你！<span  ></span><br />
-				<span />今天是你生日，但我不曾想过，<span  ></span><br />
-				<span />我们之间会变成这样。<span  ></span><br />
-				<span />我们曾经说好的，<span  ></span><br />
-				<span />开学的时候，我会帮你补过生日，<span  ></span><br />
-				<span />一起换手机贴膜，一起用情侣手机壳，<span  ></span><br />
-				<span />一起穿情侣衫，一起去哈尔滨旅游，<span  ></span><br />
-				<span />一起锻炼身体，一起度过大学最后一年。<span  ></span><br />
-				<span />我和你一起努力，然后考上清华。<span  ></span><br />
-				<span />你和我一起加油，变成一只胖纸。<span  ></span><br />
-				<span />但是这一切都没来得及去做。<span  ></span><br />
-				<span />这几天是我最难过的几天，<span  ></span><br />
-				<span />你也是唯一一个让我哭过的女孩子。<span  ></span><br />
-				<span />上次打电话给你的时候，<span  ></span><br />
-				<span />我哭了，被老师看到了，<span  ></span><br />
-				<span />他说：兄弟，你怎么这么没出息，<span  ></span><br />
-				<span />我说是，但是他不知道，我对你是有多深的喜欢。<span  ></span><br />
-				<span />有句话是这么说的，认真你就输了，<span  ></span><br />
-				<span />这一次，我输得一塌糊涂。<span  ></span><br />
-				<span />我倔强的脾气，傻傻的自尊心，<span  ></span><br />
-				<span />逼得你从我身边离开。<span  ></span><br />
-				<span />谢谢你的“爱过”。<span  ></span><br />
-				<span />这个网页我会一直保留着，<span  ></span><br />
-				<span />你记着，曾经有一个男生毫无保留地爱过你。<span  ></span><br />
-				<span />你说暂时认我做哥，<span  ></span><br />
-				<span />我心里五味陈杂，<span  ></span><br />
-				<span />不知道是该开心还是难过。<span  ></span><br />
-				<span />其实只要能够每天见到你，<span  ></span><br />
-				<span />我都会心满意足。<span  ></span><br />
-				<span />接下来的时间，<span  ></span><br />
-				<span />“哥哥”会陪着你度过大学里最难熬的时间，<span  ></span><br />
-				<span />帮你实现你的清华梦！<span  ></span><br />
-				<span />加油，宝贝儿！<span  ></span><br />
-			</div>
-			<div id="loveHeart">
-				<canvas id="garden"></canvas>
-				<div id="words">
-					<div id="messages">
-						宝贝儿，我们在一起的时间停留在
-						<div id="elapseClock"></div>
-						 <div id="tips"> 这段时间我知道可能不会重新启动了，但我依然期待有一天它能动起来。</div>
-					</div>
-					<div id="loveu" >
-					<a href="pictures.html">
-							I still love U(看完再戳我哦)</a><br/>
-						<div class="signature">- Jay</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="copyright">
-			752377627@qq.com<br>			
-			</div>
-	</div>
-	<script type="text/javascript">
-		var offsetX = $("#loveHeart").width() / 2;
-		var offsetY = $("#loveHeart").height() / 2 - 55;
-		var together = new Date();
-		together.setFullYear(2014,7,20);
-		together.setHours(0);
-		together.setMinutes(0);
-		together.setSeconds(0);
-		together.setMilliseconds(0);
-		
-		if (!document.createElement('canvas').getContext) {
-			var msg = document.createElement("div");
-			msg.id = "errorMsg";
-			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
-			document.body.appendChild(msg);
-			$("#code").css("display", "none")
-			$("#copyright").css("position", "absolute");
-			$("#copyright").css("bottom", "10px");
-		    document.execCommand("stop");
-		} else {
-			setTimeout(function () {
-				startHeartAnimation();
-			}, 6000);
-
-			timeElapse(together);
-			setInterval(function () {
-				timeElapse(together);
-			}, 500);
-
-			adjustCodePosition();
-			$("#code").typewriter();
-		}
-	</script>
+<body>
+<p><b>徐杰的个人博客，待开发！</b></p>
 </body>
+
 </html>
